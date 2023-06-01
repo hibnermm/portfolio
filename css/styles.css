@@ -1,13 +1,54 @@
 body{
-box-sizing: border-box;
+  font-size: 1rem;
 }
 
-img{
-  margin: ;
-  border: ;
-  padding: ;
+div{
+  margin-bottom: 50px;
+  height: 30%;
+}
+
+header{
+  height: 5px;
+}
+
+img #kojlogo{
+  float: left;
+  max-width: 100%;
+  height: auto;
+}
+
+/* color palette */
+ nav{
+  float:right;
+  width: 30%;
+ }
+ul{
+  text-decoration: none;
+}
+
+li{
+  display: inline;
+}
+
+a{
+  text-decoration: none;
 }
 
 .side{
   float: right;
+}
+
+{
+  margin: auto;
+  width: 30%;
+  height: auto;
+  display: block;
+  
+}
+
+p{
+  margin: 0;
+  border: 2px solid #B0F5A6;
+  border-radius: 10%;
+  padding: 1rem;
 }
