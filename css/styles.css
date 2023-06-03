@@ -1,39 +1,66 @@
 body{
-  font-size: 1rem;
-}
-
-div{
-  margin-bottom: 50px;
-  height: 30%;
+  margin: 0;
+  padding: 0;
+  size: 1rem;
+  box-sizing: border-box;
+  /*can you use across, cases where not prudent?*/
 }
 
 header{
-  height: 5px;
+  background-color:#A0EBD8;
+  border-bottom: solid #f4f3f3 5px;
+  border-style: outset;
+  overflow: hidden;
 }
 
-img #kojlogo{
-  float: left;
-  max-width: 100%;
-  height: auto;
-}
-
-/* color palette */
- nav{
+nav{
   float:right;
-  width: 30%;
+  width: 60%;
  }
+
 ul{
   text-decoration: none;
+  text-align: center;
 }
 
 li{
   display: inline;
+  margin: 50px;
 }
 
 a{
+  padding: 5px;
   text-decoration: none;
+  size: 2rem;
 }
 
+a:link{
+  color:#000;
+  border-bottom: solid #A6F5CB 2px;
+  border-style: outset;
+}
+
+a:hover{
+  color:#fff;
+  background-color: #A6F5CB;
+}
+
+.main{
+  margin: 30px 10px; 
+}
+
+h1{
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+h2{
+
+}
+/* color palette */
+
+/*
 .side{
   float: right;
 }
@@ -43,7 +70,6 @@ a{
   width: 30%;
   height: auto;
   display: block;
-  
 }
 
 p{
@@ -52,3 +78,8 @@ p{
   border-radius: 10%;
   padding: 1rem;
 }
+
+.contact{
+  
+}
+*/
