@@ -136,8 +136,17 @@ form div{
   width: 100%;
 }
 
-button{
+.button1{
   color:#000;
-  border-bottom: solid #A6F5CB 2px;
+  border-bottom: solid #A6F5CB 1px;
+  background-color: #fff;
   border-style: outset;
+  padding: 5px;
+  size: 2rem;
+  width: 40%;
+}
+
+.button1:hover{
+  color:#fff;
+  background-color: #A6F5CB;
 }
