@@ -15,7 +15,7 @@ header{
 
 nav{
   float:right;
-  width: 60%;
+  width: 80%;
  }
 
 ul{
@@ -87,12 +87,17 @@ span{
   width: 20%;
   color:#000;
   border: solid #A6F5CB 2px;
-  border-style: outset;
+  border-style: double;
+  margin: 15px 20px 10px 30px;
 }
 
-ul{
+ul, ol{
   text-decoration: none;
   list-style-type: none;
+}
+
+ol li{
+  text-align: center;
 }
 
 .column-img{
