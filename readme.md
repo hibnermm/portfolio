@@ -8,4 +8,4 @@ To setup this project:
 2. Copy repository url
 3. Git clone repository url
 
-There are no known bugs. It is licensed under the terms indicated in MIT.
+_The contact page does not work and is being revised._ It is licensed under the terms indicated in MIT, copyright 2023.
