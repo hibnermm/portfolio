@@ -2,8 +2,8 @@ body{
   margin: 0;
   padding: 0;
   size: 1rem;
-  box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
 }
 
 header{
@@ -13,7 +13,7 @@ header{
   overflow: hidden;
 }
 
-nav{
+nav {
   float:right;
   width: 80%;
  }
@@ -46,11 +46,13 @@ a:hover{
   background-color: #A6F5CB;
 }
 
-.main{
-  margin: 30px 10px; 
+.section{
+  margin: 0 auto;
   padding-left: 30px;
   padding-right: 30px;
+  width: 960px;
 }
+
 
 h1{
   text-align: center;
@@ -83,38 +85,52 @@ span{
 }
 
 .skills{
+  width: 150px;
+  height: auto;
+  display: block;
   float: right;
-  width: 20%;
+  margin-left: 20px;
   color:#000;
-  border: solid #A6F5CB 2px;
+  border: solid #A6F5CB 5px;
   border-style: double;
-  margin: 15px 20px 10px 30px;
+  border-radius: 10%;
 }
 
-ul, ol{
+ul{
   text-decoration: none;
   list-style-type: none;
 }
 
+.skills li{
+  text-align: left;
+  inline-size: min-content;
+}
+
 ol li{
+  text-align: left;
+}
+
+ul li{
   text-align: center;
 }
 
 .column-img{
+  margin: auto;
   width: 200px;
+  height: auto;
   display: block;
   border-radius: 30%;
   transform: rotate(0deg);
+  border: #A0EBD8 3px solid;
 }
 
 .proj{
-  display: block;
-  margin: auto;
-  height: auto;
-  width: 20%;
-  box-sizing: border-box;
-  line-height: 1.5;
-}
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 80%;
+    text-align: center;
+  }
 
 .contact{
   margin: auto;
@@ -138,9 +154,11 @@ form div{
 
 .button1{
   color:#000;
+  margin-top:10px;
   border-bottom: solid #A6F5CB 1px;
   background-color: #fff;
   border-style: outset;
+  border-radius: 5%;
   padding: 5px;
   size: 2rem;
   width: 40%;
@@ -150,3 +168,28 @@ form div{
   color:#fff;
   background-color: #A6F5CB;
 }
+
+
+
+/* media queries */
+ @media only screen and (max-width:980px){
+  header {
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: auto;
+    float: none;
+    text-align: center;
+  }
+  nav li{
+    margin: 5px;
+     }
+  nav a{
+    font-size: .75rem;
+  }
+  .section{
+    width: auto;
+    margin: 0px auto;
+    text-align: center;
+  }
+ }
