@@ -169,17 +169,32 @@ form div{
   background-color: #A6F5CB;
 }
 
-
+footer{
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
 
 /* media queries */
  @media only screen and (max-width:980px){
+  body{
+    font-size: .75rem;
+  }
+  h1{
+    font-size: 1.25rem;
+  }
+  h2, h3{
+    font-size: 1rem;
+  }
   header {
     margin: 0 auto;
     padding-left: 30px;
     padding-right: 30px;
     width: auto;
-    float: none;
     text-align: center;
+  }
+  nav {
+    float:none;
+    width: 80%;
   }
   nav li{
     margin: 5px;
@@ -187,9 +202,59 @@ form div{
   nav a{
     font-size: .75rem;
   }
+  a{
+    padding: 1.5px;
+    text-decoration: none;
+    size: 1rem;
+  }
+  a:link{
+    color:#000;
+    border-bottom: solid #A6F5CB .5px;
+    border-style: outset;
+  }
   .section{
     width: auto;
     margin: 0px auto;
     text-align: center;
   }
  }
+
+ @media only screen and (max-width:500px){
+  header {
+    margin: 0;
+  }
+  nav {
+    float:none;
+    width: auto;
+    height: auto;
+    display: inline;
+   }
+  nav li{
+    margin: .5px;
+     }
+  nav a{
+    font-size: .40rem;
+  }
+  .section{
+    width: auto;
+    margin: 0px auto;
+    text-align: center;
+  }
+  .contact{
+    margin: auto;
+    width: auto;
+    height: auto;
+    display:block;
+  }
+  form{
+    background-color:#A0EBD8;
+    border-bottom: solid #f4f3f3 5px;
+    border-style: outset;
+    overflow: hidden;
+    padding: 15px;
+  }
+  form div{
+    padding-bottom:5px;
+    width: auto;
+  }
+}
